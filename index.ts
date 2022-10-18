@@ -33,3 +33,23 @@ const author: Author & User = {
     firstName: "Felipe",
     orders: [],
 }
+
+interface UserInterface {
+    readonly firstName: string;
+    email: string;
+}
+
+const emailUser: UserInterface = {
+    email: "felipe@gmail.com",
+    firstName: "Felipe"
+}
+
+interface AuthorInterface {
+    books: string[];
+} 
+
+const newAuthor: UserInterface & AuthorInterface = {
+    email: "author@gamil.com",
+    firstName: "Felipe",
+    books: []
+}
