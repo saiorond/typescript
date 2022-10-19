@@ -21,4 +21,4 @@ class Person implements IPerson {
     }
 }
 
-const person = new Person(1, "Felipe", 21);
+const pessoa = new Person(1, "Felipe", 21);
